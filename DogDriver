@@ -1,0 +1,17 @@
+public class DogDriver
+{
+    public static void main(String[] agrs)
+    {
+        Dog dog1 = new Dog("Fang", 5,"Husky",80);
+        Dog dog2 = new Dog("Nutmeg",12,"Australian Sheepdog", 45);
+        Dog dog3 = new Dog("Manti", 13, "Maltese Poodle", 25);
+
+        System.out.println("Name: "+dog1.getName()+"\nBreed: "+dog1.getBreed()+"\nAge: "+dog1.getAge());
+        System.out.println();
+        System.out.println("Name: "+dog2.getName()+"\nWeight(lbs): "+dog2.getWeight());
+        System.out.println();
+        System.out.println(dog3);
+        System.out.println();
+        System.out.println("Number of Dogs: "+Dog.getDogCount());
+    }//end main method
+}//end DogDriver class
